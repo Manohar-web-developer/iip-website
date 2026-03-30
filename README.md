@@ -125,8 +125,6 @@ IIP Website/
 
 ---
 
-## 📷 Preview
-(Add screenshots here)
 
 ---
 
