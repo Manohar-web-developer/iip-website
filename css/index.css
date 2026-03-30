@@ -1,0 +1,167 @@
+/* Index (Home) Page - Specific CSS */
+
+.course_heading {
+    width: 200px;
+    background-color: #F1F0EF;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    font-size: 23px;
+    color: #00A8EC;
+}
+
+.course_type {
+    display: flex;
+    justify-content: flex-start;
+    gap: 100px;
+}
+
+.course_type ul {
+    list-style: none;
+    padding: 50px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.course_type ul li {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    font-size: 18px;
+
+}
+
+.php {
+    color: #E6611C;
+
+}
+
+.php img {
+    background-color: #E6611C;
+    border-radius: 50%;
+}
+
+.adv-php {
+    color: #5E5EA3;
+}
+
+.adv-php img {
+    background-color: #5E5EA3;
+    border-radius: 50%;
+}
+
+.python {
+    color: #7CB1E0;
+}
+
+.python img {
+    background-color: #7CB1E0;
+    border-radius: 50%;
+}
+
+.android {
+    color: #89C221;
+}
+
+.android img {
+    background-color: #89C221;
+    border-radius: 50%;
+}
+
+.dig-m {
+    color: #5E5EA3;
+}
+
+.dig-m img {
+    background-color: #5E5EA3;
+    border-radius: 50%;
+}
+
+.gd {
+    color: #D7122B;
+}
+
+.gd img {
+    background-color: #D7122B;
+    border-radius: 50%;
+}
+
+.seo {
+    color: #318A7B;
+}
+
+.seo img {
+    background-color: #318A7B;
+    border-radius: 50%;
+}
+
+.wp {
+    color: #E6611C;
+}
+
+.wp img {
+    background-color: #E6611C;
+    border-radius: 50%;
+}
+
+/* How We Work Section */
+.how_we_work_heading {
+    text-align: center;
+    color: #00A8EC;
+    font-size: 22px;
+}
+
+.how_we_work_div {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    padding: 15px 30px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.how_we_work_div div {
+    padding: 70px 20px;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.we_listen {
+    background-image: url(../Images/images/how/HOW-WE-WORK1.png);
+    object-fit: contain;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    color: white;
+    background-color: #CB6E8A;
+}
+
+.we_plan {
+    background-image: url(../Images/images/how/HOW-WE-WORK2.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: white;
+    background-color: #ef758e;
+}
+
+.we_design {
+    background-image: url(../Images/images/how/HOW-WE-WORK3.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    color: white;
+    background-color: #F1A063;
+}
+
+.we_Execute {
+    background-image: url(../Images/images/how/HOW-WE-WORK4.png);
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-position: bottom center;
+    box-sizing: border-box;
+    color: white;
+    background-color: #F6C66C;
+}

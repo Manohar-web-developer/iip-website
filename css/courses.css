@@ -1,0 +1,260 @@
+/* Courses Page - Specific CSS */
+
+.page_status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.courses_contetnt {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 50px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px 0px;
+}
+
+.php-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #E6611C;
+
+}
+
+.php-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #E6611C;
+
+}
+
+.php-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #E6611C;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.php-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.python-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #7CB1E0;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.python-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.python-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #7CB1E0;
+
+}
+
+.python-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #7CB1E0;
+    padding: 10px 0px;
+    box-sizing: border-box;
+
+}
+
+
+.Advance-php-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #5E5EA3;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.Advance-php-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.adv-php-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #5E5EA3;
+
+}
+
+.adv-php-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #5E5EA3;
+    padding: 10px 0px;
+    box-sizing: border-box;
+
+
+}
+
+.seo-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #5E5EA3;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.seo-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.seo-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #5E5EA3;
+
+}
+
+.seo-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #5E5EA3;
+    box-sizing: border-box;
+
+
+}
+
+.app-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #89C221;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.app-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.app-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #89C221;
+
+}
+
+.app-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #89C221;
+    box-sizing: border-box;
+
+}
+
+.gd-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #D60626;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.gd-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.gd-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #D60626;
+
+}
+
+.gd-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #D60626;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+
+
+.wp-course_image {
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #E6611C;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.wp-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+}
+
+.wp-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #E6611C;
+
+}
+
+.wp-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #E6611C;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}
+
+.jv-course_image {
+    padding: 29px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #026400;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.jv-course_image img {
+    height: 100px;
+    border: 10px solid white;
+    border-radius: 50%;
+    padding: 3px 15px;
+    box-sizing: border-box;
+}
+
+.jv-detils {
+    text-align: center;
+    box-sizing: border-box;
+    border: 1px solid #026400;
+
+}
+
+.jv-detils h5 {
+    font-size: 22px;
+    font-weight: 300;
+    color: #026400;
+    padding: 10px 0px;
+    box-sizing: border-box;
+}

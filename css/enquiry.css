@@ -1,0 +1,72 @@
+/* Enquiry Form CSS */
+form {
+    padding: 10px 20px;
+}
+
+.enq_row {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 15px 0px;
+}
+
+.enq_row h2 {
+    width: 130px;
+    font-size: 20px;
+    padding-top: 8px;
+    flex-shrink: 0;
+}
+
+.enq_input {
+    width: 280px;
+    padding: 12px 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+}
+
+.enq_select {
+    padding: 8px 10px;
+    border: 1px solid #aaa;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+}
+
+.enq_textarea {
+    width: 280px;
+    height: 150px;
+    padding: 10px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    font-size: 16px;
+    outline: none;
+    resize: vertical;
+}
+
+.enq_radio {
+    display: flex;
+    gap: 15px;
+    padding-top: 8px;
+    font-size: 17px;
+}
+
+.enq_radio input {
+    margin-right: 4px;
+}
+
+.enq_btn {
+    background-color: #00A8EC;
+    color: white;
+    border: none;
+    padding: 14px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.enq_btn:hover {
+    background-color: #008ecb;
+}
